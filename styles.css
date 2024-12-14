@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.timer-labels {
+    font-size: 24px; /* Size of the labels */
+    color: limegreen; /* Color of the labels */
+    text-shadow: 0 0 10px limegreen; /* Glowing effect */
+}
+
+.timer {
+    font-size: 48px;
+    color: limegreen;
+    text-shadow: 0 0 20px limegreen; /* Glowing effect */
+}
+
+.timer.complete {
+    color: red; /* Change text color to red */
+    text-shadow: 0 0 20px red; /* Glowing effect in red */
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #444; /* Darker button background */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Hover effects for standard buttons */
+button:hover {
+    background-color: #666; /* Lighter on hover */
+}
+
+/* Styles for larger buttons */
+.large-buttons {
+    margin-top: 20px; /* Space above large buttons */
+}
+
+.large-buttons button {
+    padding: 15px 20px; /* Larger padding for add/remove buttons */
+    font-size: 18px; /* Larger font size */
+}
+
+/* Hover effects for Add Time button */
+#addTimeBtn:hover {
+    background-color: lightgreen; /* Light green on hover */
+    box-shadow: 0 0 20px lightgreen; /* Glow effect */
+}
+
+/* Hover effects for Remove Time button */
+#removeTimeBtn:hover {
+    background-color: lightcoral; /* Light red on hover */
+    box-shadow: 0 0 20px lightcoral; /* Glow effect */
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+

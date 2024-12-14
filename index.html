@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Descriptive text for timer -->
+        <div class="timer-labels">
+            <span class="label">YYYY</span> :
+            <span class="label">MM</span> :
+            <span class="label">DD</span> :
+            <span class="label">HH</span> :
+            <span class="label">MM</span> :
+            <span class="label">SS</span>
+        </div>
+        <div id="timer" class="timer">0000:00:00:00:00:00</div>
+        <div class="controls">
+            <!-- Input for adding/removing time -->
+            <input type="text" id="addRemoveInput" placeholder="Add/Remove amount" />
+            <select id="addRemoveUnit">
+                <option value="seconds">Seconds</option>
+                <option value="minutes">Minutes</option>
+                <option value="hours">Hours</option>
+                <option value="days">Days</option>
+                <option value="months">Months</option>
+                <option value="years">Years</option>
+            </select>
+            <button id="startBtn">Start Countdown</button>
+            <button id="stopBtn">Stop</button>
+            <button id="resetBtn">Reset</button>
+
+            <!-- Larger buttons for adding/removing time -->
+            <div class="large-buttons">
+                <button id="addTimeBtn">Add Time</button>
+                <button id="removeTimeBtn">Remove Time</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
