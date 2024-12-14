@@ -15,8 +15,8 @@ Clone this repository to your local machine using:
 ```bash
 git clone https://github.com/yourusername/proj-in-time-countdown-timer.git
 ```
-1.Open index.html in your web browser.
-2.Enter your desired countdown duration in the input field.
-3.Select the appropriate time unit (seconds, minutes, hours, etc.).
-4.Click "Start Countdown" to begin!
+1.Open index.html in your web browser.<br />
+2.Enter your desired countdown duration in the input field.<br />
+3.Select the appropriate time unit (seconds, minutes, hours, etc.).<br />
+4.Click "Start Countdown" to begin!<br />
 5.Use "Add Time" or "Remove Time" buttons to adjust your countdown as needed.
